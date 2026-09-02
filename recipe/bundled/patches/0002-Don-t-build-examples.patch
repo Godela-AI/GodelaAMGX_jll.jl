@@ -1,0 +1,12 @@
+The examples are stand-alone executables we don't ship; skip them.
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -275,6 +275,3 @@ install(TARGETS amgxsh DESTINATION "lib")
+ 
+ #export(TARGETS amgxsh FILE ${CMAKE_CURRENT_SOURCE_DIR}/amgxsh.cmake)
+ 
+-# build examples
+-add_subdirectory(examples)
+-

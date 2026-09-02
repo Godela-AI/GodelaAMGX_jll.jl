@@ -1,0 +1,22 @@
+[[GodelaAMGX]]
+arch = "x86_64"
+cuda = "13.3"
+git-tree-sha1 = "16cc0ddfa5865a170f6778175e981dc86f9e415f"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GodelaAMGX.download]]
+    sha256 = "2b18f3b747eb9efb182046665b256ee5ddbe8ea9e236c482e16dee7ed80b5e12"
+    url = "https://github.com/Godela-AI/GodelaAMGX_jll.jl/releases/download/GodelaAMGX-v2.5.0+0/GodelaAMGX.v2.5.0.x86_64-linux-gnu-cuda+13.3.tar.gz"
+[[GodelaAMGX]]
+arch = "x86_64"
+cuda = "12.9"
+git-tree-sha1 = "82d24570ddf0ea918c62b35a74a44669c20f6403"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[GodelaAMGX.download]]
+    sha256 = "8274ef44c580bdbeba98a21324f0935fc3923dcc995c8d5986a5dda57da926a8"
+    url = "https://github.com/Godela-AI/GodelaAMGX_jll.jl/releases/download/GodelaAMGX-v2.5.0+0/GodelaAMGX.v2.5.0.x86_64-linux-gnu-cuda+12.9.tar.gz"
