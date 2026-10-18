@@ -1,3 +1,6 @@
+import DispatchCheckup
+DispatchCheckup.dispatch_doctor(:GodelaAMGX_jll; report=get(ENV, "DISPATCH_CHECKUP_REPORT", nothing))
+
 using Test
 
 const TEST_FILES = ("test_aqua.jl", "test_check_concrete_structs.jl")

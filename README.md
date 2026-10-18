@@ -26,3 +26,10 @@ the release as `GodelaAMGX-logs.*.tar.gz`.
 using GodelaAMGX_jll
 GodelaAMGX_jll.is_available() && GodelaAMGX_jll.libamgxsh
 ```
+
+The tests load [DispatchCheckup](https://github.com/AzamatB/DispatchCheckup.jl)
+from GitHub `main` before the wrapper, then run Aqua and recursive concrete-field
+checks. Comment out the single `dispatch_doctor` call in `test/runtests.jl` to
+restore ordinary testing. `DISPATCH_CHECKUP_REPORT` saves a TOML report of the
+loaded wrapper definitions and unsupported generated loader helpers; it does not
+analyze the native AMGX binary.
