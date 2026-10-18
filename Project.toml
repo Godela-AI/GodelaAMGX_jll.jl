@@ -17,7 +17,7 @@ LazyArtifacts = "< 0.0.1, 1"
 Libdl = "< 0.0.1, 1"
 TOML = "< 0.0.1, 1"
 Artifacts = "< 0.0.1, 1"
-Aqua = "0.8.18"
+Aqua = "1"
 CheckConcreteStructs = "0.1"
 Test = "1"
 CUDA_Runtime_jll = "0.25"
@@ -31,4 +31,5 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 test = ["Aqua", "CheckConcreteStructs", "Test"]
 
 [sources]
-Aqua = {url = "https://github.com/AzamatB/Aqua.jl.git", rev = "2c5cfa6c20232c84eac390fc56557f5a24d7e4c2"}
+CheckConcreteStructs = {url = "https://github.com/AzamatB/CheckConcreteStructs.jl.git", rev = "2cbd8a1cf8e5cc799fa8403ebed3ada44fda5b75"}
+Aqua = {url = "https://github.com/AzamatB/Aqua.jl.git", rev = "4487279ca2b6e6cb50c58fe3bb7c079254fdac43"}

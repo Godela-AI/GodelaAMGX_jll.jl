@@ -1,6 +1,9 @@
 using Test
 using CheckConcreteStructs: all_concrete
+import CheckConcreteStructs
 using GodelaAMGX_jll
+
+@info "CheckConcreteStructs test dependency" version=Base.pkgversion(CheckConcreteStructs) path=pathof(CheckConcreteStructs)
 
 @testset "Concrete struct fields" begin
     modules = Module[GodelaAMGX_jll]
