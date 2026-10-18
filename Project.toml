@@ -31,5 +31,5 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 test = ["Aqua", "CheckConcreteStructs", "Test"]
 
 [sources]
-CheckConcreteStructs = {url = "https://github.com/AzamatB/CheckConcreteStructs.jl.git", rev = "2cbd8a1cf8e5cc799fa8403ebed3ada44fda5b75"}
+CheckConcreteStructs = {url = "https://github.com/AzamatB/CheckConcreteStructs.jl.git", rev = "6fa558eec5e83406320846aae154403a614754b9"}
 Aqua = {url = "https://github.com/AzamatB/Aqua.jl.git", rev = "4487279ca2b6e6cb50c58fe3bb7c079254fdac43"}
